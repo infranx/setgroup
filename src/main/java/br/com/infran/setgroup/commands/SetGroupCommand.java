@@ -16,7 +16,7 @@ public class SetGroupCommand {
             name = "setgroup",
             aliases = {"setargrupo"},
             permission = "hades.gerente",
-            usage = "setgroup [Jogador] [Grupo]"
+            usage = "setgroup <Jogador> <Grupo>"
     )
 
     public void setgroupCommand(Context<Player>context, String[] args) {
