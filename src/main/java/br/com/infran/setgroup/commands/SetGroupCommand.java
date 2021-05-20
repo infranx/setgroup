@@ -28,39 +28,39 @@ public class SetGroupCommand {
             p.sendMessage("");
             p.sendMessage(" §e➟ Lista com grupos disponíveis:");
             (new FancyMessage(" §8 ➟ §6[Master]"))
-                    .tooltip("§7Exemplo: §6[Master] " + p.getName() + " \n \n§a§l❘ §aClique para setar.!")
+                    .tooltip("§7Exemplo: §6[Master] " + p.getName() + " \n \n§a§l❘ §aClique para setar.")
                     .suggest("/setgroup " + p.getName() + " master")
                     .send(p);
             (new FancyMessage(" §8 ➟ §4[Gerente]"))
-                    .tooltip("§7Exemplo: §4[Gerente] " + p.getName() + " \n \n§a§l❘ §aClique para setar.!")
+                    .tooltip("§7Exemplo: §4[Gerente] " + p.getName() + " \n \n§a§l❘ §aClique para setar.")
                     .suggest("/setgroup " + p.getName() + " gerente")
                     .send(p);
             (new FancyMessage(" §8 ➟ §c[Admin]"))
-                    .tooltip("§7Exemplo: §c[Admin] " + p.getName() + " \n \n§a§l❘ §aClique para setar.!")
+                    .tooltip("§7Exemplo: §c[Admin] " + p.getName() + " \n \n§a§l❘ §aClique para setar.")
                     .suggest("/setgroup " + p.getName() + " admin")
                     .send(p);
             (new FancyMessage(" §8 ➟ §2[Moderador]"))
-                    .tooltip("§7Exemplo: §2[Moderador] " + p.getName() + " \n \n§a§l❘ §aClique para setar.!")
+                    .tooltip("§7Exemplo: §2[Moderador] " + p.getName() + " \n \n§a§l❘ §aClique para setar.")
                     .suggest("/setgroup " + p.getName() + " moderador")
                     .send(p);
             (new FancyMessage(" §8 ➟ §e[Ajudante]"))
-                    .tooltip("§7Exemplo: §e[Ajudante] " + p.getName() + " \n \n§a§l❘ §aClique para setar.!")
+                    .tooltip("§7Exemplo: §e[Ajudante] " + p.getName() + " \n \n§a§l❘ §aClique para setar.")
                     .suggest("/setgroup " + p.getName() + " ajudante")
                     .send(p);
             (new FancyMessage(" §8 ➟ §b[MVP§6+§b]"))
-                    .tooltip("§7Exemplo: §b[MVP§6+§b] " + p.getName() + " \n \n§a§l❘ §aClique para setar.!")
+                    .tooltip("§7Exemplo: §b[MVP§6+§b] " + p.getName() + " \n \n§a§l❘ §aClique para setar.")
                     .suggest("/setgroup " + p.getName() + " mvplus")
                     .send(p);
             (new FancyMessage(" §8 ➟ §6[MVP]"))
-                    .tooltip("§7Exemplo: §6[MVP] " + p.getName() + " \n \n§a§l❘ §aClique para setar.!")
+                    .tooltip("§7Exemplo: §6[MVP] " + p.getName() + " \n \n§a§l❘ §aClique para setar.")
                     .suggest("/setgroup " + p.getName() + " mvp")
                     .send(p);
             (new FancyMessage(" §8 ➟ §a[VIP]"))
-                    .tooltip("§7Exemplo: §a[VIP] " + p.getName() + " \n \n§a§l❘ §aClique para setar.!")
+                    .tooltip("§7Exemplo: §a[VIP] " + p.getName() + " \n \n§a§l❘ §aClique para setar.")
                     .suggest("/setgroup " + p.getName() + " vip")
                     .send(p);
             (new FancyMessage(" §8 ➟ §7[Membro]"))
-                    .tooltip("§7Exemplo: §7[Membro] " + p.getName() + " \n \n§a§l❘ §aClique para setar.!")
+                    .tooltip("§7Exemplo: §7[Membro] " + p.getName() + " \n \n§a§l❘ §aClique para setar.")
                     .suggest("/setgroup " + p.getName() + " membro")
                     .send(p);
             p.sendMessage("");
